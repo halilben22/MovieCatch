@@ -12,3 +12,4 @@ You can see popular and recent movies and add to your favorites.
 -Retrofit
 -Navigation
 -ViewModel
+-Coroutines
