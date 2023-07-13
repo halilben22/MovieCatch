@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">MovieCatch</string>
+    <string name="title">Title</string>
+    <string name="prev">Prev</string>
+    <string name="next">Next</string>
+    <string name="create_your_own_favorite_list_navigate_your_list_without_internet">Create your own favorite list navigate your list without internet.</string>
+    <string name="offline_database">Offline Database</string>
+    <string name="effectivity">Effectivity</string>
 </resources>

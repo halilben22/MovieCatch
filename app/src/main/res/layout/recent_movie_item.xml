@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+android:layout_marginBottom="8dp"
+    android:orientation="horizontal">
+
+
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="16dp"
+        android:layout_width="342px"
+        android:layout_height="513px"
+        android:layout_marginRight="8dp"
+
+        android:elevation="0dp">
+
+        <ImageView
+            android:id="@+id/posterView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            />
+
+        <RelativeLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+
+                android:id="@+id/imageHeart"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:clickable="true"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/baseline_favorite_border_24"
+                android:focusable="true" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:textColor="@color/black"
+          android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            >
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/txtGenre"
+            android:textStyle="italic"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="deneme deneme deneme"
+            >
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/txtReleaseDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="deneme deneme deneme"
+            >
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+
+            <ImageView
+
+
+                android:layout_width="30dp"
+ android:layout_marginEnd="5dp"
+                android:layout_height="35sp"
+
+
+
+
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/txtNoteAverage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8/10"
+                >
+            </TextView>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
